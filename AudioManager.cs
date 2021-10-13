@@ -4,6 +4,10 @@ using UnityEngine;
 
 
 // Audio manager script
+// To use it correctly, firstly create object on your scene
+// this object must contain "AudioManager" tag.
+// For each sound you want to add, create new slot in AudioEffects array {line:14}
+// and new audioEffectName in AudioLibrary enum {line:35}
 public class AudioManager : MonoBehaviour
 {
     public GameObject audioObject;
